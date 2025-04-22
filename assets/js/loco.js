@@ -39,21 +39,21 @@ document.addEventListener('DOMContentLoaded', function () {
     ScrollTrigger.addEventListener("refresh", () => scroll.update());
     ScrollTrigger.refresh();
 
-    // Animate .feature-item on scroll
-    gsap.to(".feature-item", {
-        scrollTrigger: {
-            trigger: ".feature-item",
-            scroller: "[data-scroll-container]",
-            start: "top 50%",
-            end: "top 10%",
-            scrub: true,
-            pin: true,
-            // markers: true, // Uncomment to debug positions
-        },
-        scale: 1,
+//     // Animate .feature-item on scroll
+//     gsap.to(".feature-item", {
+//         scrollTrigger: {
+//             trigger: ".feature-item",
+//             scroller: "[data-scroll-container]",
+//             start: "top 50%",
+//             end: "top 10%",
+//             scrub: true,
+//             pin: true,
+//             // markers: true, // Uncomment to debug positions
+//         },
+//         scale: 1,
         
-        left:"10%",
-        ease: "power2.out"
-    });
-});
+//         left:"10%",
+//         ease: "power2.out"
+//     });
+// });
 

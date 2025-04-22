@@ -162,7 +162,7 @@ var swiper = new Swiper(".whoSlider", {
 
 
 
-// Diiferent Scrolls
+// Blog slider
 var swiper = new Swiper(".blogSwiper", {
     slidesPerView: 1,
     spaceBetween: 30,
@@ -193,5 +193,7 @@ var swiper = new Swiper(".blogSwiper", {
         }
     }
 });
+
+
 
 
