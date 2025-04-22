@@ -1,4 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
+    // Register GSAP plugin
+    gsap.registerPlugin(ScrollTrigger);
+
     const scrollContainer = document.querySelector('[data-scroll-container]');
 
     // Initialize Locomotive Scroll
@@ -9,15 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
         tablet: { smooth: true }
     });
 
-    // Update scroll when window resizes
-    new ResizeObserver(() => scroll.update()).observe(scrollContainer);
-
-    // Register GSAP ScrollTrigger
-    gsap.registerPlugin(ScrollTrigger);
-
-    // Sync ScrollTrigger with Locomotive
-    scroll.on("scroll", ScrollTrigger.update);
-
+    // Link Locomotive Scroll to ScrollTrigger
     ScrollTrigger.scrollerProxy(scrollContainer, {
         scrollTop(value) {
             return arguments.length
@@ -35,25 +30,32 @@ document.addEventListener('DOMContentLoaded', function () {
         pinType: scrollContainer.style.transform ? "transform" : "fixed"
     });
 
-    // Refresh both on load
-    ScrollTrigger.addEventListener("refresh", () => scroll.update());
+    // Update ScrollTrigger on Locomotive scroll
+    scroll.on('scroll', ScrollTrigger.update);
+
+    // Refresh ScrollTrigger on Locomotive update
+    ScrollTrigger.addEventListener('refresh', () => scroll.update());
     ScrollTrigger.refresh();
 
-//     // Animate .feature-item on scroll
-//     gsap.to(".feature-item", {
-//         scrollTrigger: {
-//             trigger: ".feature-item",
-//             scroller: "[data-scroll-container]",
-//             start: "top 50%",
-//             end: "top 10%",
-//             scrub: true,
-//             pin: true,
-//             // markers: true, // Uncomment to debug positions
-//         },
-//         scale: 1,
-        
-//         left:"10%",
-//         ease: "power2.out"
-//     });
-// });
+    // ResizeObserver keeps Locomotive Scroll aware of content changes
+    new ResizeObserver(() => scroll.update()).observe(scrollContainer);
 
+    // Example animation: fade + move in .animate-me on scroll
+
+    gsap.from(".text-on-scroll", {
+        scrollTrigger: {
+            trigger: ".text-on-scroll",
+            scroller: "[data-scroll-container]",
+            start: "top 80%",
+            end: "top 30%",
+            scrub: true,
+            // markers: true
+        },
+        y: 50,
+        opacity: 0,
+        duration: 1
+    });
+
+
+
+});

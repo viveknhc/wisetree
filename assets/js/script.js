@@ -122,7 +122,7 @@ var swiper = new Swiper(".whoSlider", {
     loop: true,
     centeredSlides: true,
     navigation: {
-        nextEl: ".swiper-button-custom-next",
+        nextEl: ".custom-next",
     },
     autoplay: {
         delay: 2500,
@@ -169,6 +169,10 @@ var swiper = new Swiper(".blogSwiper", {
     grabCursor: true,
     loop: true,
     effect: "fade",
+    // autoplay: {
+    //     delay: 2500,
+    //     disableOnInteraction: false,
+    // },
 
     navigation: {
         nextEl: ".custom-next",
