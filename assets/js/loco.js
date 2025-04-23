@@ -42,19 +42,19 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Example animation: fade + move in .animate-me on scroll
 
-    gsap.from(".text-on-scroll", {
-        scrollTrigger: {
-            trigger: ".text-on-scroll",
-            scroller: "[data-scroll-container]",
-            start: "top 80%",
-            end: "top 30%",
-            scrub: true,
-            // markers: true
-        },
-        y: 50,
-        opacity: 0,
-        duration: 1
-    });
+    // gsap.from(".text-on-scroll", {
+    //     scrollTrigger: {
+    //         trigger: ".text-on-scroll",
+    //         scroller: "[data-scroll-container]",
+    //         start: "top 80%",
+    //         end: "top 30%",
+    //         scrub: true,
+    //         // markers: true
+    //     },
+    //     y: 50,
+    //     opacity: 0,
+    //     duration: 1
+    // });
 
 
 
