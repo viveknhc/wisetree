@@ -812,10 +812,10 @@ header .home-banner .banner-pattern2 {
 
 
 .feature-section .heading-box h2 {
-    position: absolute;
+    /* position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%); */
 
     color: #144486;
 text-align: center;
@@ -839,8 +839,12 @@ letter-spacing: -0.8px;
 .feature-section .content-box{
     display: grid
     ;
+    gap:80px;
         grid-template-columns: 1fr 1fr;
         position: relative;
+        place-items: center;
+        width: fit-content;
+    margin: auto;
 }
 
 
@@ -854,10 +858,15 @@ letter-spacing: -0.8px;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    width: fit-content;
+    width: 79%;
     border-radius: 75px;
     padding: 124px 34px;
     padding: 37px 27px;
+
+    /* filter: blur(8px); */
+  transform: scale(0.3);
+  opacity: 0.5;
+  transition: filter 0.3s ease;
 
 
 }
@@ -932,6 +941,7 @@ font-size: 43.1px;
 font-style: normal;
 font-weight: 400;    
 letter-spacing: -0.431px;
+text-align: start;
 }
 
 
