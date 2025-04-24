@@ -357,7 +357,7 @@ header .home-banner .content-box {
 }
 
 
-header .home-banner .content-box video {
+header .home-banner .content-box .gif-img {
     object-fit: cover;
     width: 100%;
     height: 100%;
@@ -644,7 +644,7 @@ header .home-banner .banner-pattern2 {
     min-height: 810px;
 }
 
-.navbar-main .content-box video {
+.navbar-main .content-box .gif-img {
     object-fit: cover;
     width: 100%;
     height: 100%;
