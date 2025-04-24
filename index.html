@@ -10,6 +10,7 @@
     <!-- Locomotive Scroll CDN -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll/dist/locomotive-scroll.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 
 <body>
@@ -24,31 +25,126 @@
     </div>
 
 
-    <main data-scroll-container>
 
-        <header data-scroll-section>
 
-            <div class="home-banner  hover-effect scale--large show-text">
+
+    <!-- navbar -->
+
+
+    <main>
+
+        <div class="navbar-main">
+            <div class="content-box">
+
+                <img class="image-responsive logo" src="assets/images/general/logo.webp" alt="">
+                <video autoplay loop muted src="assets/images/home/banner-bg.mp4"></video>
+                <img class="banner-img" src="assets/images/home/home-banner-blob.webp" alt="">
+
+                <!-- <div class="link-tree">
+                    <div class="link-box">
+                        <h3>
+                            discover wisetree
+                        </h3>
+
+                        <div class="sub-links">
+                            <a class="sub-link-item">
+                                <h4>
+                                    Thoughtflow
+                                </h4>
+                                <p>
+                                    Insights on Brand & Marketing
+                                </p>
+                            </a>
+
+                            <a class="sub-link-item">
+                                <h4>
+                                    Thoughtflow
+                                </h4>
+                                <p>
+                                    Insights on Brand & Marketing
+                                </p>
+                            </a>
+
+                            <a class="sub-link-item">
+                                <h4>
+                                    Thoughtflow
+                                </h4>
+                                <p>
+                                    Insights on Brand & Marketing
+                                </p>
+                            </a>
+
+                            <a class="sub-link-item">
+                                <h4>
+                                    Thoughtflow
+                                </h4>
+                                <p>
+                                    Insights on Brand & Marketing
+                                </p>
+                            </a>
+                        </div>
+
+                        <h6>
+                            1
+                        </h6>
+
+
+                    </div>
+                </div> -->
+
+            </div>
+
+
+
+            <div class="navbar-toggle">
+                <div class="input-box">
+                    <img src="assets/images/general/nav-toggle.webp" alt="">
+                    <!-- <input id="toggleOpen" type="checkbox" > -->
+
+
+                    <div class="sub-box">
+                        <input id="toggleClose" type="checkbox" hidden>
+                        <label for="toggleClose">
+                            <img src="assets/images/general/nav-toggle-close.webp" alt="">
+                        </label>
+
+
+                        <div class="link-box">
+                            <a href="">
+                                Contact Us
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <header>
+
+            <div class="home-banner">
 
                 <div class="page-width">
 
-                    <div class="content-box">
+                    <div class="content-box hover-effect scale--large show-text">
                         <img class="image-responsive logo" src="assets/images/general/logo.webp" alt="">
                         <video autoplay loop muted src="assets/images/home/banner-bg.mp4"></video>
 
 
-                        <img class="banner-img" src="assets/images/home/home-banner-blob.png" alt="">
+                        <img class="banner-img" src="assets/images/home/home-banner-blob.webp" alt="">
 
 
                         <div class="text-box-wrap">
                             <div class="text-box">
-                                <h1 data-scroll data-scroll-direction="horizontal" data-scroll-speed="2">
+                                <h1 data-speed="5">
                                     Don’t just Keep Up, OUTRUN
                                 </h1>
                             </div>
 
                             <div class="text-box">
-                                <h1 data-scroll data-scroll-direction="horizontal" data-scroll-speed="-2">
+                                <h1 data-speed="5">
                                     Don’t just Keep Up, OUTRUN
                                 </h1>
                             </div>
@@ -61,31 +157,50 @@
                         </p>
 
 
+                        <div class="navbar-toggle hover-effect scale--small">
+                            <div class="input-box">
+                                <img src="assets/images/general/nav-toggle.webp" alt="">
+                                <!-- <input id="toggleOpen" type="checkbox" > -->
 
-                    </div>
+
+                                <div class="sub-box">
+                                    <input id="toggleOpen" type="checkbox" hidden>
+                                    <label for="toggleOpen">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="51" height="51"
+                                            viewBox="0 0 51 51" fill="none">
+                                            <circle cx="25.5" cy="25.5" r="25.5" fill="#84C08A" />
+                                            <line x1="12" y1="22.0333" x2="40" y2="22.0333" stroke="white"
+                                                stroke-width="1.93333" />
+                                            <line x1="12" y1="29.0333" x2="35.3333" y2="29.0333" stroke="white"
+                                                stroke-width="1.93333" />
+                                        </svg>
+                                    </label>
 
 
+                                    <div class="link-box">
+                                        <a href="">
+                                            Contact Us
+                                        </a>
+                                    </div>
 
+                                </div>
 
-                    <!-- navbar -->
-                    <!-- <div class="outer-menu">
-                        <input class="checkbox-toggle" type="checkbox" />
-                        <div class="hamburger">
-                            <div></div>
-                        </div>
-                        <div class="menu">
-                            <div class="menu-content-box">
-                                <h1>menuuu</h1>
                             </div>
                         </div>
+
+
+
                     </div>
-                    -->
+
+
+
+
+
+
 
                     <!-- patterns -->
-                    <img data-scroll data-scroll-direction="horizontal" data-scroll-speed="-2" class="banner-pattern1"
-                        src="assets/images/home/banner-pattern1.png" alt="">
-                    <img data-scroll data-scroll-direction="horizontal" data-scroll-speed="2" class="banner-pattern2"
-                        src="assets/images/home/banner-pattern2.png" alt="">
+                    <img class="banner-pattern1" src="assets/images/home/banner-pattern1.webp" alt="">
+                    <img class="banner-pattern2" src="assets/images/home/banner-pattern2.webp" alt="">
 
                 </div>
             </div>
@@ -94,7 +209,7 @@
 
 
 
-        <section class="unique-section" data-scroll-section>
+        <section class="unique-section">
             <div class="page-width">
                 <div class="heading-box text-on-scroll">
                     <h2>what makes us unique</h2>
@@ -106,40 +221,39 @@
                     </h3>
 
                     <div class="wrap">
-                        <div class="box">
+                        <div class="box text-on-scroll" anim-speed="2">
 
                             <a href="" class="primary-btn">
                                 <p>
                                     LEARN MORE
                                 </p>
                                 <div class="empty-box">
-
+    
                                 </div>
                                 <div class="arrow-box">
-                                    <svg class="button__icon-svg" xmlns="http://www.w3.org/2000/svg" width="24"
-                                        height="25" viewBox="0 0 24 25" fill="none">
+                                    <svg class="button__icon-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                        viewBox="0 0 24 25" fill="none">
                                         <path
                                             d="M24 2.17704V19.5098C24 19.8635 23.8595 20.2026 23.6095 20.4526C23.3594 20.7027 23.0203 20.8431 22.6667 20.8431C22.3131 20.8431 21.974 20.7027 21.7239 20.4526C21.4739 20.2026 21.3334 19.8635 21.3334 19.5098V5.39528L2.27734 24.453C2.02716 24.7032 1.68784 24.8438 1.33403 24.8438C0.980226 24.8438 0.640909 24.7032 0.390729 24.453C0.140549 24.2028 0 23.8635 0 23.5097C0 23.1559 0.140549 22.8166 0.390729 22.5664L19.4485 3.51033H5.33391C4.9803 3.51033 4.64117 3.36986 4.39113 3.11982C4.14109 2.86978 4.00062 2.53065 4.00062 2.17704C4.00062 1.82343 4.14109 1.4843 4.39113 1.23426C4.64117 0.984222 4.9803 0.84375 5.33391 0.84375H22.6667C23.0203 0.84375 23.3594 0.984222 23.6095 1.23426C23.8595 1.4843 24 1.82343 24 2.17704Z"
-                                            fill="#F7FFEF" />
+                                            fill="#fff" />
                                     </svg>
-
-                                    <svg class="button__icon-svg button__icon-svg--copy"
-                                        xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25"
-                                        fill="none">
+    
+                                    <svg class="button__icon-svg button__icon-svg--copy" xmlns="http://www.w3.org/2000/svg"
+                                        width="24" height="25" viewBox="0 0 24 25" fill="none">
                                         <path
                                             d="M24 2.17704V19.5098C24 19.8635 23.8595 20.2026 23.6095 20.4526C23.3594 20.7027 23.0203 20.8431 22.6667 20.8431C22.3131 20.8431 21.974 20.7027 21.7239 20.4526C21.4739 20.2026 21.3334 19.8635 21.3334 19.5098V5.39528L2.27734 24.453C2.02716 24.7032 1.68784 24.8438 1.33403 24.8438C0.980226 24.8438 0.640909 24.7032 0.390729 24.453C0.140549 24.2028 0 23.8635 0 23.5097C0 23.1559 0.140549 22.8166 0.390729 22.5664L19.4485 3.51033H5.33391C4.9803 3.51033 4.64117 3.36986 4.39113 3.11982C4.14109 2.86978 4.00062 2.53065 4.00062 2.17704C4.00062 1.82343 4.14109 1.4843 4.39113 1.23426C4.64117 0.984222 4.9803 0.84375 5.33391 0.84375H22.6667C23.0203 0.84375 23.3594 0.984222 23.6095 1.23426C23.8595 1.4843 24 1.82343 24 2.17704Z"
-                                            fill="#F7FFEF" />
+                                            fill="#fff" />
                                     </svg>
-
-
+    
+    
                                 </div>
-
+    
                             </a>
 
 
                         </div>
 
-                        <div class="box">
+                        <div class="box text-on-scroll" anim-speed="4">
                             <p>
                                 Wisetree Brands stands out for its commitment to deliver sustainable and
                                 high-performance
@@ -153,7 +267,7 @@
                             </p>
                         </div>
 
-                        <div class="box">
+                        <div class="box text-on-scroll" anim-speed="6">
                             <p>
                                 Our strategies are designed to be an efficient investment, relative to revenue,
                                 delivering
@@ -176,12 +290,12 @@
             </div>
         </section>
 
-        <section class="who-we" data-scroll-section>
+        <section class="who-we">
             <div class="page-width">
                 <div class="content-box">
 
                     <div class="left">
-                        <div class="box">
+                        <div class="box text-on-scroll">
                             <p>
                                 We are the B2B branding experts who create long-term value for brands, which ultimately
                                 translates
@@ -194,14 +308,14 @@
 
                         </div>
 
-                        <div class="box">
+                        <div class="box text-on-scroll">
                             <h3>
                                 who we are
                             </h3>
 
                         </div>
 
-                        <div class="box">
+                        <div class="box text-on-scroll">
                             <p>
                                 for long-term business relationships and sustained success​. As a B2B Brand and
                                 Marketing
@@ -212,7 +326,7 @@
 
                     </div>
 
-                    <div class="right">
+                    <div class="right text-on-scroll">
                         <a href="" class="primary-btn-white">
                             <p>
                                 LEARN MORE
@@ -243,30 +357,30 @@
 
                 </div>
 
-                <div class="slider-box">
+                <div class="slider-box left-scroll" data-speed="3">
                     <div class="swiper whoSlider">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
 
-                                <img src="assets/images/home/who-we-slider-img1.png" class="card-img-top" alt="...">
+                                <img src="assets/images/home/who-we-slider-img1.webp" class="card-img-top" alt="...">
 
                             </div>
 
                             <div class="swiper-slide">
 
-                                <img src="assets/images/home/who-we-slider-img2.png" class="card-img-top" alt="...">
+                                <img src="assets/images/home/who-we-slider-img2.webp" class="card-img-top" alt="...">
 
                             </div>
 
                             <div class="swiper-slide">
 
-                                <img src="assets/images/home/who-we-slider-img3.png" class="card-img-top" alt="...">
+                                <img src="assets/images/home/who-we-slider-img3.webp" class="card-img-top" alt="...">
 
                             </div>
 
                             <div class="swiper-slide">
 
-                                <img src="assets/images/home/who-we-slider-img3.png" class="card-img-top" alt="...">
+                                <img src="assets/images/home/who-we-slider-img3.webp" class="card-img-top" alt="...">
 
                             </div>
 
@@ -286,156 +400,115 @@
 
         </section>
 
-        <section class="feature-section" data-scroll-section>
-          
-                <div class="heading-box">
-                    <h2>
-                        If you’re looking at us,
-                        You’re <span>looking to</span>
-                    </h2>
-                </div>
-                <div class="pin-wrap">
-                <div class="content-box">
-                    <div class="box">
-                        
-                        <div class="left">
-                            <div class="bg-text">
-                                G
-                            </div>
+        <section class="feature-section">
 
-                            <h3>
-                                1
-                            </h3>
-                        </div>
-
-                        <div class="right">
-                            <h4>Gain</h4>
-                            <p>Gain Buyer’s Trust</p>
-                        </div>
-                    </div>
-
-                    <div class="box">
-                        
-                        <div class="left">
-                            <div class="bg-text">
-                                G
-                            </div>
-
-                            <h3>
-                                2
-                            </h3>
-                        </div>
-
-                        <div class="right">
-                            <h4>enhance</h4>
-                            <p>Enhance sales quota attainment</p>
-                        </div>
-                    </div>
-
-                    <div class="box">
-                        
-                        <div class="left">
-                            <div class="bg-text">
-                                G
-                            </div>
-
-                            <h3>
-                                3
-                            </h3>
-                        </div>
-
-                        <div class="right">
-                            <h4>generate</h4>
-                            <p>generate demand</p>
-                        </div>
-                    </div>
-
-                    <div class="box">
-                        
-                        <div class="left">
-                            <div class="bg-text">
-                                G
-                            </div>
-
-                            <h3>
-                                4
-                            </h3>
-                        </div>
-
-                        <div class="right">
-                            <h4>build</h4>
-                            <p>build a distintive brand</p>
-                        </div>
-                    </div>
-
-                   
-                </div>
+            <div class="heading-box">
+                <h2>
+                    If you’re looking at us,
+                    You’re <span>looking to</span>
+                </h2>
             </div>
+
+            <div class="content-box">
+                <div class="box">
+
+                    <div class="left">
+                        <div class="bg-text">
+                            G
+                        </div>
+
+                        <h3>
+                            1
+                        </h3>
+                    </div>
+
+                    <div class="right">
+                        <h4>Gain</h4>
+                        <p>Gain Buyer’s Trust</p>
+                    </div>
+                </div>
+
+                <div class="box">
+
+                    <div class="left">
+                        <div class="bg-text">
+                            G
+                        </div>
+
+                        <h3>
+                            2
+                        </h3>
+                    </div>
+
+                    <div class="right">
+                        <h4>enhance</h4>
+                        <p>Enhance sales quota attainment</p>
+                    </div>
+                </div>
+
+                <div class="box">
+
+                    <div class="left">
+                        <div class="bg-text">
+                            G
+                        </div>
+
+                        <h3>
+                            3
+                        </h3>
+                    </div>
+
+                    <div class="right">
+                        <h4>generate</h4>
+                        <p>generate demand</p>
+                    </div>
+                </div>
+
+                <div class="box">
+
+                    <div class="left">
+                        <div class="bg-text">
+                            G
+                        </div>
+
+                        <h3>
+                            4
+                        </h3>
+                    </div>
+
+                    <div class="right">
+                        <h4>build</h4>
+                        <p>build a distintive brand</p>
+                    </div>
+                </div>
+
+
+            </div>
+
         </section>
 
 
 
-        <!-- <section class="feature-section" data-scroll-section>
-            <div class="page-width">
-                <div class="content-box">
 
-                   
-                     
-                        <h2>
-                            If you’re looking at us,
-                            You’re looking to
-                        </h2>
-                   
-                        <div class="feature-item">
-                            <div class="left">
-                                <img src="assets/images/home/feature-G.png" alt="">
-                            <h3>1</h3>
-                        </div>
-                            <h4>Gain</h4>
-                            <p>Gain Buyer’s Trust</p>
-                        </div>
-
-                        <div class="feature-item">
-                            <div class="left">
-                                <img src="assets/images/home/feature-G.png" alt="">
-                            <h3>1</h3>
-                        </div>
-                            <h4>Gain</h4>
-                            <p>Gain Buyer’s Trust</p>
-                        </div>
-
-                        <div class="feature-item">
-                            <div class="left">
-                                <img src="assets/images/home/feature-G.png" alt="">
-                            <h3>1</h3>
-                        </div>
-                            <h4>Gain</h4>
-                            <p>Gain Buyer’s Trust</p>
-                        </div>    
-                </div>
-            </div>
-
-        </section> -->
-
-        <section class="services" data-scroll-section>
+        <section class="services">
 
             <div class="heading-box">
                 <div class="page-width">
-                    <h2>Services</h2>
+                    <h2 class="text-on-scroll">Services</h2>
                 </div>
 
             </div>
 
 
 
-            <div class="content-box">
+            <div class="content-box ">
                 <div class="page-width">
-                    <p class="heading-para">
+                    <p class="heading-para text-on-scroll">
                         Empowering B2B Leaders to scale organically
                     </p>
 
 
-                    <div class="wrap">
+                    <div class="wrap left-scroll" data-speed="1">
                         <div class="item">
                             <video class="bg-image" autoplay loop muted src="assets/images/home/Aura.mp4"></video>
 
@@ -489,7 +562,7 @@
 
                             </div>
 
-                            <img class="service-blob" src="assets/images/home/service-blob.png" alt="">
+                            <img class="service-blob" src="assets/images/home/service-blob.webp" alt="">
                         </div>
 
                         <div class="item">
@@ -541,68 +614,11 @@
                             </svg>
 
                             <div class="number-circle">
-                                1.
+                                2.
 
                             </div>
 
-                            <img class="service-blob" src="assets/images/home/service-blob.png" alt="">
-                        </div>
-
-
-                        <div class="item">
-                            <video class="bg-image" autoplay loop muted src="assets/images/home/Aura.mp4"></video>
-
-                            <div class="hover-text-box">
-                                <svg class="hoverd" xmlns="http://www.w3.org/2000/svg" width="65" height="65"
-                                    viewBox="0 0 65 65" fill="none">
-                                    <g clip-path="url(#clip0_88_10)">
-                                        <path
-                                            d="M64.406 22.938L54.2497 12.7818C54.0611 12.5929 53.8371 12.4431 53.5905 12.3409C53.3439 12.2387 53.0796 12.186 52.8126 12.186C52.5457 12.186 52.2814 12.2387 52.0348 12.3409C51.7882 12.4431 51.5642 12.5929 51.3755 12.7818L42.6564 21.5035L33.9372 12.7818C33.7486 12.5929 33.5246 12.4431 33.278 12.3409C33.0314 12.2387 32.7671 12.186 32.5001 12.186C32.2332 12.186 31.9689 12.2387 31.7223 12.3409C31.4757 12.4431 31.2517 12.5929 31.063 12.7818L22.3439 21.5035L13.6247 12.7818C13.4361 12.5929 13.2121 12.4431 12.9655 12.3409C12.7189 12.2387 12.4546 12.186 12.1876 12.186C11.9207 12.186 11.6564 12.2387 11.4098 12.3409C11.1632 12.4431 10.9392 12.5929 10.7505 12.7818L0.594274 22.938C0.405415 23.1267 0.255592 23.3507 0.153371 23.5973C0.0511499 23.8439 -0.00146484 24.1082 -0.00146484 24.3751C-0.00146484 24.6421 0.0511499 24.9064 0.153371 25.153C0.255592 25.3996 0.405415 25.6236 0.594274 25.8122L10.7505 35.9685C10.9392 36.1574 11.1632 36.3072 11.4098 36.4094C11.6564 36.5116 11.9207 36.5642 12.1876 36.5642C12.4546 36.5642 12.7189 36.5116 12.9655 36.4094C13.2121 36.3072 13.4361 36.1574 13.6247 35.9685L22.3439 27.2468L29.6285 34.5314L20.9068 43.2505C20.7179 43.4392 20.5681 43.6632 20.4659 43.9098C20.3637 44.1564 20.311 44.4207 20.311 44.6876C20.311 44.9546 20.3637 45.2189 20.4659 45.4655C20.5681 45.7121 20.7179 45.9361 20.9068 46.1247L31.063 56.281C31.2517 56.4698 31.4757 56.6197 31.7223 56.7219C31.9689 56.8241 32.2332 56.8767 32.5001 56.8767C32.7671 56.8767 33.0314 56.8241 33.278 56.7219C33.5246 56.6197 33.7486 56.4698 33.9372 56.281L44.0935 46.1247C44.2823 45.9361 44.4322 45.7121 44.5344 45.4655C44.6366 45.2189 44.6892 44.9546 44.6892 44.6876C44.6892 44.4207 44.6366 44.1564 44.5344 43.9098C44.4322 43.6632 44.2823 43.4392 44.0935 43.2505L35.3718 34.5314L42.6564 27.2468L51.3755 35.9685C51.5642 36.1574 51.7882 36.3072 52.0348 36.4094C52.2814 36.5116 52.5457 36.5642 52.8126 36.5642C53.0796 36.5642 53.3439 36.5116 53.5905 36.4094C53.8371 36.3072 54.0611 36.1574 54.2497 35.9685L64.406 25.8122C64.5948 25.6236 64.7447 25.3996 64.8469 25.153C64.9491 24.9064 65.0017 24.6421 65.0017 24.3751C65.0017 24.1082 64.9491 23.8439 64.8469 23.5973C64.7447 23.3507 64.5948 23.1267 64.406 22.938ZM12.1876 31.6597L4.90306 24.3751L12.1876 17.0906L19.4722 24.3751L12.1876 31.6597ZM32.5001 51.9722L25.2156 44.6876L32.5001 37.4031L39.7847 44.6876L32.5001 51.9722ZM32.5001 31.6597L25.2156 24.3751L32.5001 17.0906L39.7847 24.3751L32.5001 31.6597ZM52.8126 31.6597L45.5281 24.3751L52.8126 17.0906L60.0972 24.3751L52.8126 31.6597Z"
-                                            fill="#FCFFF9" fill-opacity="0.95" />
-                                    </g>
-                                    <defs>
-                                        <clipPath id="clip0_88_10">
-                                            <rect width="65" height="65" fill="white" />
-                                        </clipPath>
-                                    </defs>
-                                </svg>
-
-                                <h3 class="hoverd">
-                                    Markets
-                                </h3>
-
-                                <p class="hoverd">We increase brand visibility through strategic campaigns and a
-                                    thorough content strategy, ensuring that the brand stands out and captures attention
-                                    in saturated or competitive markets.</p>
-
-
-                            </div>
-                            <div class="text-box">
-                                <p class="not-hoverd">enhanced Brand Visibility in Competitive</p>
-                                <h3 class="not-hoverd">
-                                    Markets
-                                </h3>
-                            </div>
-                            <svg class="not-hoverd" xmlns="http://www.w3.org/2000/svg" width="65" height="65"
-                                viewBox="0 0 65 65" fill="none">
-                                <g clip-path="url(#clip0_88_10)">
-                                    <path
-                                        d="M64.406 22.938L54.2497 12.7818C54.0611 12.5929 53.8371 12.4431 53.5905 12.3409C53.3439 12.2387 53.0796 12.186 52.8126 12.186C52.5457 12.186 52.2814 12.2387 52.0348 12.3409C51.7882 12.4431 51.5642 12.5929 51.3755 12.7818L42.6564 21.5035L33.9372 12.7818C33.7486 12.5929 33.5246 12.4431 33.278 12.3409C33.0314 12.2387 32.7671 12.186 32.5001 12.186C32.2332 12.186 31.9689 12.2387 31.7223 12.3409C31.4757 12.4431 31.2517 12.5929 31.063 12.7818L22.3439 21.5035L13.6247 12.7818C13.4361 12.5929 13.2121 12.4431 12.9655 12.3409C12.7189 12.2387 12.4546 12.186 12.1876 12.186C11.9207 12.186 11.6564 12.2387 11.4098 12.3409C11.1632 12.4431 10.9392 12.5929 10.7505 12.7818L0.594274 22.938C0.405415 23.1267 0.255592 23.3507 0.153371 23.5973C0.0511499 23.8439 -0.00146484 24.1082 -0.00146484 24.3751C-0.00146484 24.6421 0.0511499 24.9064 0.153371 25.153C0.255592 25.3996 0.405415 25.6236 0.594274 25.8122L10.7505 35.9685C10.9392 36.1574 11.1632 36.3072 11.4098 36.4094C11.6564 36.5116 11.9207 36.5642 12.1876 36.5642C12.4546 36.5642 12.7189 36.5116 12.9655 36.4094C13.2121 36.3072 13.4361 36.1574 13.6247 35.9685L22.3439 27.2468L29.6285 34.5314L20.9068 43.2505C20.7179 43.4392 20.5681 43.6632 20.4659 43.9098C20.3637 44.1564 20.311 44.4207 20.311 44.6876C20.311 44.9546 20.3637 45.2189 20.4659 45.4655C20.5681 45.7121 20.7179 45.9361 20.9068 46.1247L31.063 56.281C31.2517 56.4698 31.4757 56.6197 31.7223 56.7219C31.9689 56.8241 32.2332 56.8767 32.5001 56.8767C32.7671 56.8767 33.0314 56.8241 33.278 56.7219C33.5246 56.6197 33.7486 56.4698 33.9372 56.281L44.0935 46.1247C44.2823 45.9361 44.4322 45.7121 44.5344 45.4655C44.6366 45.2189 44.6892 44.9546 44.6892 44.6876C44.6892 44.4207 44.6366 44.1564 44.5344 43.9098C44.4322 43.6632 44.2823 43.4392 44.0935 43.2505L35.3718 34.5314L42.6564 27.2468L51.3755 35.9685C51.5642 36.1574 51.7882 36.3072 52.0348 36.4094C52.2814 36.5116 52.5457 36.5642 52.8126 36.5642C53.0796 36.5642 53.3439 36.5116 53.5905 36.4094C53.8371 36.3072 54.0611 36.1574 54.2497 35.9685L64.406 25.8122C64.5948 25.6236 64.7447 25.3996 64.8469 25.153C64.9491 24.9064 65.0017 24.6421 65.0017 24.3751C65.0017 24.1082 64.9491 23.8439 64.8469 23.5973C64.7447 23.3507 64.5948 23.1267 64.406 22.938ZM12.1876 31.6597L4.90306 24.3751L12.1876 17.0906L19.4722 24.3751L12.1876 31.6597ZM32.5001 51.9722L25.2156 44.6876L32.5001 37.4031L39.7847 44.6876L32.5001 51.9722ZM32.5001 31.6597L25.2156 24.3751L32.5001 17.0906L39.7847 24.3751L32.5001 31.6597ZM52.8126 31.6597L45.5281 24.3751L52.8126 17.0906L60.0972 24.3751L52.8126 31.6597Z"
-                                        fill="#FCFFF9" fill-opacity="0.95" />
-                                </g>
-                                <defs>
-                                    <clipPath id="clip0_88_10">
-                                        <rect width="65" height="65" fill="white" />
-                                    </clipPath>
-                                </defs>
-                            </svg>
-
-                            <div class="number-circle">
-                                1.
-
-                            </div>
-
-                            <img class="service-blob" src="assets/images/home/service-blob.png" alt="">
+                            <img class="service-blob" src="assets/images/home/service-blob.webp" alt="">
                         </div>
 
 
@@ -655,11 +671,11 @@
                             </svg>
 
                             <div class="number-circle">
-                                1.
+                                3.
 
                             </div>
 
-                            <img class="service-blob" src="assets/images/home/service-blob.png" alt="">
+                            <img class="service-blob" src="assets/images/home/service-blob.webp" alt="">
                         </div>
 
 
@@ -712,17 +728,69 @@
                             </svg>
 
                             <div class="number-circle">
-                                1.
+                                4.
 
                             </div>
 
-                            <img class="service-blob" src="assets/images/home/service-blob.png" alt="">
+                            <img class="service-blob" src="assets/images/home/service-blob.webp" alt="">
                         </div>
 
 
+                        <div class="item">
+                            <video class="bg-image" autoplay loop muted src="assets/images/home/Aura.mp4"></video>
+
+                            <div class="hover-text-box">
+                                <svg class="hoverd" xmlns="http://www.w3.org/2000/svg" width="65" height="65"
+                                    viewBox="0 0 65 65" fill="none">
+                                    <g clip-path="url(#clip0_88_10)">
+                                        <path
+                                            d="M64.406 22.938L54.2497 12.7818C54.0611 12.5929 53.8371 12.4431 53.5905 12.3409C53.3439 12.2387 53.0796 12.186 52.8126 12.186C52.5457 12.186 52.2814 12.2387 52.0348 12.3409C51.7882 12.4431 51.5642 12.5929 51.3755 12.7818L42.6564 21.5035L33.9372 12.7818C33.7486 12.5929 33.5246 12.4431 33.278 12.3409C33.0314 12.2387 32.7671 12.186 32.5001 12.186C32.2332 12.186 31.9689 12.2387 31.7223 12.3409C31.4757 12.4431 31.2517 12.5929 31.063 12.7818L22.3439 21.5035L13.6247 12.7818C13.4361 12.5929 13.2121 12.4431 12.9655 12.3409C12.7189 12.2387 12.4546 12.186 12.1876 12.186C11.9207 12.186 11.6564 12.2387 11.4098 12.3409C11.1632 12.4431 10.9392 12.5929 10.7505 12.7818L0.594274 22.938C0.405415 23.1267 0.255592 23.3507 0.153371 23.5973C0.0511499 23.8439 -0.00146484 24.1082 -0.00146484 24.3751C-0.00146484 24.6421 0.0511499 24.9064 0.153371 25.153C0.255592 25.3996 0.405415 25.6236 0.594274 25.8122L10.7505 35.9685C10.9392 36.1574 11.1632 36.3072 11.4098 36.4094C11.6564 36.5116 11.9207 36.5642 12.1876 36.5642C12.4546 36.5642 12.7189 36.5116 12.9655 36.4094C13.2121 36.3072 13.4361 36.1574 13.6247 35.9685L22.3439 27.2468L29.6285 34.5314L20.9068 43.2505C20.7179 43.4392 20.5681 43.6632 20.4659 43.9098C20.3637 44.1564 20.311 44.4207 20.311 44.6876C20.311 44.9546 20.3637 45.2189 20.4659 45.4655C20.5681 45.7121 20.7179 45.9361 20.9068 46.1247L31.063 56.281C31.2517 56.4698 31.4757 56.6197 31.7223 56.7219C31.9689 56.8241 32.2332 56.8767 32.5001 56.8767C32.7671 56.8767 33.0314 56.8241 33.278 56.7219C33.5246 56.6197 33.7486 56.4698 33.9372 56.281L44.0935 46.1247C44.2823 45.9361 44.4322 45.7121 44.5344 45.4655C44.6366 45.2189 44.6892 44.9546 44.6892 44.6876C44.6892 44.4207 44.6366 44.1564 44.5344 43.9098C44.4322 43.6632 44.2823 43.4392 44.0935 43.2505L35.3718 34.5314L42.6564 27.2468L51.3755 35.9685C51.5642 36.1574 51.7882 36.3072 52.0348 36.4094C52.2814 36.5116 52.5457 36.5642 52.8126 36.5642C53.0796 36.5642 53.3439 36.5116 53.5905 36.4094C53.8371 36.3072 54.0611 36.1574 54.2497 35.9685L64.406 25.8122C64.5948 25.6236 64.7447 25.3996 64.8469 25.153C64.9491 24.9064 65.0017 24.6421 65.0017 24.3751C65.0017 24.1082 64.9491 23.8439 64.8469 23.5973C64.7447 23.3507 64.5948 23.1267 64.406 22.938ZM12.1876 31.6597L4.90306 24.3751L12.1876 17.0906L19.4722 24.3751L12.1876 31.6597ZM32.5001 51.9722L25.2156 44.6876L32.5001 37.4031L39.7847 44.6876L32.5001 51.9722ZM32.5001 31.6597L25.2156 24.3751L32.5001 17.0906L39.7847 24.3751L32.5001 31.6597ZM52.8126 31.6597L45.5281 24.3751L52.8126 17.0906L60.0972 24.3751L52.8126 31.6597Z"
+                                            fill="#FCFFF9" fill-opacity="0.95" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_88_10">
+                                            <rect width="65" height="65" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+
+                                <h3 class="hoverd">
+                                    Markets
+                                </h3>
+
+                                <p class="hoverd">We increase brand visibility through strategic campaigns and a
+                                    thorough content strategy, ensuring that the brand stands out and captures attention
+                                    in saturated or competitive markets.</p>
 
 
+                            </div>
+                            <div class="text-box">
+                                <p class="not-hoverd">enhanced Brand Visibility in Competitive</p>
+                                <h3 class="not-hoverd">
+                                    Markets
+                                </h3>
+                            </div>
+                            <svg class="not-hoverd" xmlns="http://www.w3.org/2000/svg" width="65" height="65"
+                                viewBox="0 0 65 65" fill="none">
+                                <g clip-path="url(#clip0_88_10)">
+                                    <path
+                                        d="M64.406 22.938L54.2497 12.7818C54.0611 12.5929 53.8371 12.4431 53.5905 12.3409C53.3439 12.2387 53.0796 12.186 52.8126 12.186C52.5457 12.186 52.2814 12.2387 52.0348 12.3409C51.7882 12.4431 51.5642 12.5929 51.3755 12.7818L42.6564 21.5035L33.9372 12.7818C33.7486 12.5929 33.5246 12.4431 33.278 12.3409C33.0314 12.2387 32.7671 12.186 32.5001 12.186C32.2332 12.186 31.9689 12.2387 31.7223 12.3409C31.4757 12.4431 31.2517 12.5929 31.063 12.7818L22.3439 21.5035L13.6247 12.7818C13.4361 12.5929 13.2121 12.4431 12.9655 12.3409C12.7189 12.2387 12.4546 12.186 12.1876 12.186C11.9207 12.186 11.6564 12.2387 11.4098 12.3409C11.1632 12.4431 10.9392 12.5929 10.7505 12.7818L0.594274 22.938C0.405415 23.1267 0.255592 23.3507 0.153371 23.5973C0.0511499 23.8439 -0.00146484 24.1082 -0.00146484 24.3751C-0.00146484 24.6421 0.0511499 24.9064 0.153371 25.153C0.255592 25.3996 0.405415 25.6236 0.594274 25.8122L10.7505 35.9685C10.9392 36.1574 11.1632 36.3072 11.4098 36.4094C11.6564 36.5116 11.9207 36.5642 12.1876 36.5642C12.4546 36.5642 12.7189 36.5116 12.9655 36.4094C13.2121 36.3072 13.4361 36.1574 13.6247 35.9685L22.3439 27.2468L29.6285 34.5314L20.9068 43.2505C20.7179 43.4392 20.5681 43.6632 20.4659 43.9098C20.3637 44.1564 20.311 44.4207 20.311 44.6876C20.311 44.9546 20.3637 45.2189 20.4659 45.4655C20.5681 45.7121 20.7179 45.9361 20.9068 46.1247L31.063 56.281C31.2517 56.4698 31.4757 56.6197 31.7223 56.7219C31.9689 56.8241 32.2332 56.8767 32.5001 56.8767C32.7671 56.8767 33.0314 56.8241 33.278 56.7219C33.5246 56.6197 33.7486 56.4698 33.9372 56.281L44.0935 46.1247C44.2823 45.9361 44.4322 45.7121 44.5344 45.4655C44.6366 45.2189 44.6892 44.9546 44.6892 44.6876C44.6892 44.4207 44.6366 44.1564 44.5344 43.9098C44.4322 43.6632 44.2823 43.4392 44.0935 43.2505L35.3718 34.5314L42.6564 27.2468L51.3755 35.9685C51.5642 36.1574 51.7882 36.3072 52.0348 36.4094C52.2814 36.5116 52.5457 36.5642 52.8126 36.5642C53.0796 36.5642 53.3439 36.5116 53.5905 36.4094C53.8371 36.3072 54.0611 36.1574 54.2497 35.9685L64.406 25.8122C64.5948 25.6236 64.7447 25.3996 64.8469 25.153C64.9491 24.9064 65.0017 24.6421 65.0017 24.3751C65.0017 24.1082 64.9491 23.8439 64.8469 23.5973C64.7447 23.3507 64.5948 23.1267 64.406 22.938ZM12.1876 31.6597L4.90306 24.3751L12.1876 17.0906L19.4722 24.3751L12.1876 31.6597ZM32.5001 51.9722L25.2156 44.6876L32.5001 37.4031L39.7847 44.6876L32.5001 51.9722ZM32.5001 31.6597L25.2156 24.3751L32.5001 17.0906L39.7847 24.3751L32.5001 31.6597ZM52.8126 31.6597L45.5281 24.3751L52.8126 17.0906L60.0972 24.3751L52.8126 31.6597Z"
+                                        fill="#FCFFF9" fill-opacity="0.95" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_88_10">
+                                        <rect width="65" height="65" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
 
+                            <div class="number-circle">
+                                5.
+
+                            </div>
+
+                            <img class="service-blob" src="assets/images/home/service-blob.webp" alt="">
+                        </div>
 
                     </div>
 
@@ -738,10 +806,10 @@
 
         </section>
 
-        <section class="flow" data-scroll-section>
+        <section class="flow">
             <div class="page-width">
                 <div class="heading-box">
-                    <h2>
+                    <h2 class="text-on-scroll">
                         THOUGHT FLOW
                     </h2>
                 </div>
@@ -751,8 +819,8 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="wrap">
-                                <img src="assets/images/home/blog-item1.png" alt="">
-                                <img src="assets/images/home/blog-item2.png" alt="">
+                                <img src="assets/images/home/blog-item1.webp" alt="">
+                                <img src="assets/images/home/blog-item2.webp" alt="">
 
                                 <div class="text-box">
                                     <p>
@@ -774,8 +842,8 @@
 
                         <div class="swiper-slide">
                             <div class="wrap">
-                                <img src="assets/images/home/blog-item2.png" alt="">
-                                <img src="assets/images/home/blog-item1.png" alt="">
+                                <img src="assets/images/home/blog-item2.webp" alt="">
+                                <img src="assets/images/home/blog-item1.webp" alt="">
 
                                 <div class="text-box">
                                     <p>
@@ -807,10 +875,11 @@
             </div>
         </section>
 
-        <footer data-scroll-section>
+        <footer>
 
             <div class="heading-box">
-                <img src="assets/images/general/footer-bg-dot.png" alt="">
+
+                <img src="assets/images/general/footer-bg-dot.webp" alt="">
                 <h2>
                     Achieve your business goals today.
                     Book a discovery call now!
@@ -849,8 +918,8 @@
 
             <div class="page-width">
                 <div class="img-box">
-                    <img src="assets/images/general/footer-logo-icon.png" alt="">
-                    <img class="footer-typo" src="assets/images/general/footer-typo.png" alt="">
+                    <img src="assets/images/general/footer-logo-icon.webp" alt="">
+                    <img class="footer-typo" src="assets/images/general/footer-typo.webp" alt="">
                 </div>
 
                 <div class="copy-right">
@@ -952,11 +1021,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <!-- swiper -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <!-- GSAP -->
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
-    <!-- locomotive -->
-    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.0.6/dist/locomotive-scroll.min.js"></script>
+
+    <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
+
     <script src="./assets/js/loco.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
